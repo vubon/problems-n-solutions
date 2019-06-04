@@ -1,6 +1,6 @@
 3) Write following functions body. 2 Nodes are passed as parameter. You need to find Least Common Ancestor and print its value. Node structure are as following:
 
-[Node Image](node_tree.png?raw=true "Nodes")
+![Node Image](https://github.com/vubon/problems-n-solutions/blob/master/problem_03/node_tree.png?raw=true)
 
 ```python
 class Node:
