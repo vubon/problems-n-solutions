@@ -1,7 +1,7 @@
 import io
 import unittest
 from unittest import mock
-from src.problem_01.problem_01 import print_depth
+from problem_01 import print_depth
 
 
 class DictionaryDepthsTest(unittest.TestCase):
