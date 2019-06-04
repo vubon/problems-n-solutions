@@ -1,4 +1,4 @@
-) Write a new function with same functionality from Question 1, but it should be able to handle a Python object in addition to a dictionary from Question 1.
+2) Write a new function with same functionality from Question 1, but it should be able to handle a Python object in addition to a dictionary from Question 1.
 
 Sample Input:
 ```python
