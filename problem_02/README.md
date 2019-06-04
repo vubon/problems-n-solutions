@@ -22,6 +22,13 @@ a = {
     }
 }
 ```
+```python
+def print_depth(data):
+    """
+    :param: data
+    """
+    # Write function body
+```
 
 Sample Output:
 ```bash
