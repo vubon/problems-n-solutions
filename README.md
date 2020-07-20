@@ -2,6 +2,19 @@
 In this Repo you will get competitive problems with solutions 
 
 ### Problems
-1. [Problem 01](problem_01/README.md)
-2. [Problem 02](problem_02/README.md)
-3. [Problem 03](problem_03/README.md)
+1. [Problem 01](docs/1.md)
+2. [Problem 02](docs/2.md)
+3. [Problem 03](docs/3.md)
+
+### Run Test Cases
+```shell script
+coverage run -m unittest discover
+```
+Getting report run bellow commands
+```shell script
+coverage report -m
+```
+If you want to generate HTML report run below command
+```shell script
+coverage html
+```

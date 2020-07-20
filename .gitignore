@@ -7,3 +7,17 @@ venv/*
 __pycache__/
 *.py[cod]
 *$py.class
+problems/__pycache__
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/

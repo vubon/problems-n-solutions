@@ -1,8 +1,7 @@
 import io
 import unittest
 from unittest import mock
-from problem_02 import person_b
-from problem_02 import print_depth
+from problems.problem_02 import person_b, print_depth
 
 
 class DictionaryDepthsTest(unittest.TestCase):
@@ -40,7 +39,3 @@ father 5
 
     def test_invalid_dict(self):
         self.assertRaises(TypeError, lambda: print_depth(self.invalid_data))
-
-
-if __name__ == '__main__':
-    unittest.main()

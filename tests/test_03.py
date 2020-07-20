@@ -1,5 +1,5 @@
 import unittest
-from problem_03 import Node, lca
+from problems.problem_03 import Node, lca
 
 
 class LCATest(unittest.TestCase):
@@ -15,6 +15,9 @@ class LCATest(unittest.TestCase):
         self.node3 = self.root.right = Node(3)
         self.node6 = self.node3.left = Node(6)
         self.node7 = self.node3.right = Node(7)
+
+    def test_node_str(self):
+        self.assertEqual(self.root.__str__(), "Node number: 1")
 
     def test_case_01(self):
         """
@@ -36,7 +39,3 @@ class LCATest(unittest.TestCase):
         :return:
         """
         self.assertEqual(lca(Node(77), Node(30)), None)
-
-
-if __name__ == '__main__':
-    unittest.main()

@@ -61,12 +61,11 @@ def lca(node_one, node_two):
 
 
 # ==================== Examples =============================== #
-# when you will run the test case , please comment out  below line
-
-# print("LCA of 3 & 7 is", lca(Node(3), Node(7)))
-# print("LCA of 7 & 9 is", lca(Node(7), Node(9)))
-# print("LCA of 6 & 7 is", lca(Node(6), Node(7)))
-# print("LCA of 8 & 9 is", lca(Node(8), Node(9)))
-# print("LCA of 4 & 5 is", lca(Node(4), Node(5)))
-# print("LCA of 4 & 2 is", lca(Node(4), Node(2)))
-# print("LCA of 11 & 10 is", lca(Node(11), Node(10)))
+if __name__ == '__main__':
+    print("LCA of 3 & 7 is", lca(Node(3), Node(7)))
+    print("LCA of 7 & 9 is", lca(Node(7), Node(9)))
+    print("LCA of 6 & 7 is", lca(Node(6), Node(7)))
+    print("LCA of 8 & 9 is", lca(Node(8), Node(9)))
+    print("LCA of 4 & 5 is", lca(Node(4), Node(5)))
+    print("LCA of 4 & 2 is", lca(Node(4), Node(2)))
+    print("LCA of 11 & 10 is", lca(Node(11), Node(10)))

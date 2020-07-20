@@ -1,7 +1,7 @@
 import io
 import unittest
 from unittest import mock
-from problem_01 import print_depth
+from problems.problem_01 import print_depth
 
 
 class DictionaryDepthsTest(unittest.TestCase):
@@ -37,6 +37,3 @@ key7 4
     def test_invalid_data(self):
         self.assertRaises(TypeError, lambda: print_depth(self.invalid_data))
 
-
-if __name__ == '__main__':
-    unittest.main()

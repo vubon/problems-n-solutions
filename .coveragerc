@@ -1,0 +1,15 @@
+[run]
+source = .
+branch = False
+timid = True
+omit = venv/*
+[report]
+show_missing = True
+include = *.py
+exclude_lines =
+    if __name__ == .__main__.:
+omit =
+    */site-packages/*
+
+[html]
+title = Code Coverage
