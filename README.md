@@ -6,6 +6,8 @@ In this Repo you will get competitive problems with solutions
 2. [Problem 02](docs/2.md)
 3. [Problem 03](docs/3.md)
 
+Create virtualenv and install all libs from requirements.txt file. 
+
 ### Run Test Cases
 ```shell script
 coverage run -m unittest discover
